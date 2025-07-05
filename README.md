@@ -1,40 +1,48 @@
-# Cardiovascular Disease Dataset Analysis
-This project explores and analyzes the Cardiovascular Disease dataset using Python, Pandas, Seaborn, and Matplotlib. The goal is to uncover patterns and correlations that can help understand the key risk factors for cardiovascular disease.
+# Health & Recommendation Data Analysis
 
-## 📁 Dataset Information
-The dataset includes medical records of patients with the following features:
+This repository contains exploratory data analysis (EDA) and machine learning  prediction model for various health and entertainment datasets.
 
-Demographic: age, gender, height, weight
+## Projects Overview
 
-Clinical: ap_hi (systolic BP), ap_lo (diastolic BP), cholesterol, gluc (glucose)
+### 1. Heart Disease Analysis
+- **File**: `exploratory data analysis on heart disease dataset.ipynb`
+- **Description**: Comprehensive EDA on cardiovascular disease risk factors including age, blood pressure, cholesterol levels, and lifestyle factors.
+- **Key Features**: Data cleaning, visualization of risk factors, correlation analysis.
 
-Lifestyle: smoke, alco, active
+### 2. Diabetes Prediction Model
+- **File**: `diabetes prediction model.ipynb`
+- **Description**: Machine learning model to predict diabetes based on health metrics.
+- **Key Features**: Feature engineering, model training, performance evaluation.
 
-Target: cardio (0 = No disease, 1 = Has cardiovascular disease)
+### 3. HR Analytics
+- **File**: `EDA on HR analytics.ipynb`
+- **Description**: Analysis of employee data to understand attrition patterns and workplace factors.
+- **Key Features**: Employee retention analysis, feature importance, visualization of key metrics.
 
-## 📊 Exploratory Data Analysis (EDA)
-The analysis covers:
+### 4. Anime Recommendation System
+- **File**: `eda on anime recommendation dataset.ipynb`
+- **Description**: Exploratory analysis of anime ratings and user preferences.
+- **Key Features**: Popularity analysis, genre trends, user rating patterns.
 
-✅ Gender-wise distribution of cardiovascular patients
+### 5. Fashion Dataset Outlier Detection
+- **File**: `eda outlier detection on fashion dataset.ipynb`
+- **Description**: Identifying anomalies in fashion product data.
+- **Key Features**: Statistical methods for outlier detection, visualization of anomalies.
 
-✅ Cholesterol & glucose level breakdown
+### 6. Gold Market Analysis
+- **File**: `gold market dataset eda outlier detection.ipynb`
+- **Description**: Analysis of gold price trends and outlier detection.
+- **Key Features**: Time series analysis, volatility patterns, anomaly detection.
 
-✅ Histograms with KDE plots for health features
+### 7. Heart Failure Prediction
+- **File**: `heart failure dataset, prediction model.ipynb`
+- **Description**: Predictive model for heart failure risk.
+- **Key Features**: Feature selection, model comparison, performance metrics.
 
-✅ Correlation heatmap to detect relationships between variables
-
-✅ Basic statistics: mean, median, mode, skewness, kurtosis
-
-
-## 📈 Sample Visualizations
-Bar plots for gender-based cardio prevalence
-
-KDE plots for cholesterol and glucose levels
-
-Correlation heatmap for all features
-
-## 💡 Insights
-Skewness and kurtosis reveal distribution shape and outliers.
-
-Cholesterol and glucose levels are strongly associated with cardiovascular disease in the dataset.
-
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib/Seaborn
+- Scikit-learn
+- Jupyter Notebook
